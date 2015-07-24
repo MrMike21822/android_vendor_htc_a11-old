@@ -35,8 +35,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/a11/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/a11/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
-        vendor/htc/a11/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
-        vendor/htc/a11/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/htc/a11/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/a11/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/a11/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -45,30 +43,24 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/a11/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/a11/proprietary/etc/firmware/lscbuffer_rev2.bin:/system/etc/firmware/lscbuffer_rev2.bin \
-        vendor/htc/a11/proprietary/lib/hw/camera.msm8226.so:/system/lib/hw/camera.msm8226.so \
-        vendor/htc/a11/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so \
-        vendor/htc/a11/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
-        vendor/htc/a11/proprietary/lib/libcamera_aec.so:/system/lib/libcamera_aec.so \
-        vendor/htc/a11/proprietary/lib/libcamera_af.so:/system/lib/libcamera_af.so \
-        vendor/htc/a11/proprietary/lib/libcamera_awb.so:/system/lib/libcamera_awb.so \
-        vendor/htc/a11/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
-        vendor/htc/a11/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
-        vendor/htc/a11/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
-        vendor/htc/a11/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_common.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_common.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_default_video.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_default_video.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_hdr.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_hdr.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_hfr.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_hfr.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_hfr_60fps.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_hfr_60fps.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_hfr_common.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_hfr_common.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_preview.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_preview.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e2_twolane_video_16_9.so:/system/vendor/lib/libchromatix_s5k5e2_twolane_video_16_9.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k6a1gx_common.so:/system/vendor/lib/libchromatix_s5k6a1gx_common.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k6a1gx_default_video.so:/system/vendor/lib/libchromatix_s5k6a1gx_default_video.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k6a1gx_hdr.so:/system/vendor/lib/libchromatix_s5k6a1gx_hdr.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k6a1gx_preview.so:/system/vendor/lib/libchromatix_s5k6a1gx_preview.so \
+        vendor/htc/a11/proprietary/lib/hw/camera.vendor.msm8226.so:/system/lib/hw/camera.vendor.msm8226.so \
+        vendor/htc/a11/proprietary/vendor/lib/libawb_calibration.so:/system/vendor/lib/libawb_calibration.so \
+        vendor/htc/a11/proprietary/vendor/lib/libBeautyChat.so:/system/vendor/lib/libBeautyChat.so \
+        vendor/htc/a11/proprietary/vendor/lib/libcamera_aec.so:/system/vendor/lib/libcamera_aec.so \
+        vendor/htc/a11/proprietary/vendor/lib/libcamera_af.so:/system/vendor/lib/libcamera_af.so \
+        vendor/htc/a11/proprietary/vendor/lib/libcamera_awb.so:/system/vendor/lib/libcamera_awb.so \
+        vendor/htc/a11/proprietary/vendor/lib/libcameraface.so:/system/vendor/lib/libcameraface.so \
+        vendor/htc/a11/proprietary/vendor/lib/libcamerapp.so:/system/vendor/lib/libcamerapp.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_gc_0339_common.so:/system/vendor/lib/libchromatix_gc_0339_common.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_gc_0339_default_video.so:/system/vendor/lib/libchromatix_gc_0339_default_video.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_gc_0339_preview.so:/system/vendor/lib/libchromatix_gc_0339_preview.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_common.so:/system/vendor/lib/libchromatix_s5k5e_onelane_common.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_default_video.so:/system/vendor/lib/libchromatix_s5k5e_onelane_default_video.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_hdr.so:/system/vendor/lib/libchromatix_s5k5e_onelane_hdr.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_preview.so:/system/vendor/lib/libchromatix_s5k5e_onelane_preview.so \
+        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so \
         vendor/htc/a11/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
-        vendor/htc/a11/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
+        vendor/htc/a11/proprietary/vendor/lib/libhtccamera.so:/system/vendor/lib/libhtccamera.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera2_cpp_module.so:/system/vendor/lib/libmmcamera2_cpp_module.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera2_iface_modules.so:/system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -84,12 +76,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:/system/vendor/lib/libmmcamera_hdr_gb_lib.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_hdr_lib.so:/system/vendor/lib/libmmcamera_hdr_lib.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
-        vendor/htc/a11/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
+        vendor/htc/a11/proprietary/vendor/lib/libmmcamera_interface.so:/system/vendor/lib/libmmcamera_interface.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:/system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
+        vendor/htc/a11/proprietary/vendor/lib/libmmcamera_ov13850.so:/system/vendor/lib/libmmcamera_ov13850.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:/system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:/system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
-        vendor/htc/a11/proprietary/vendor/lib/libmmcamera_s5k5e2_twolane.so:/system/vendor/lib/libmmcamera_s5k5e2_twolane.so \
-        vendor/htc/a11/proprietary/vendor/lib/libmmcamera_s5k6a1gx.so:/system/vendor/lib/libmmcamera_s5k6a1gx.so \
+        vendor/htc/a11/proprietary/vendor/lib/libmmcamera_s5k5e_onelane.so:/system/vendor/lib/libmmcamera_s5k5e_onelane.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:/system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:/system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:/system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
@@ -106,23 +98,31 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
         vendor/htc/a11/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
-        vendor/htc/a11/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-        vendor/htc/a11/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec.so:/system/lib/libtuning_aec.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_hdr.so:/system/lib/libtuning_aec_s5k5e2_twolane_hdr.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_hdr_16_9.so:/system/lib/libtuning_aec_s5k5e2_twolane_hdr_16_9.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_video.so:/system/lib/libtuning_aec_s5k5e2_twolane_video.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_videoHFR.so:/system/lib/libtuning_aec_s5k5e2_twolane_videoHFR.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_video_16_9.so:/system/lib/libtuning_aec_s5k5e2_twolane_video_16_9.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_video_60fps.so:/system/lib/libtuning_aec_s5k5e2_twolane_video_60fps.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_zsl.so:/system/lib/libtuning_aec_s5k5e2_twolane_zsl.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k5e2_twolane_zsl_16_9.so:/system/lib/libtuning_aec_s5k5e2_twolane_zsl_16_9.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k6a1gx_hdr.so:/system/lib/libtuning_aec_s5k6a1gx_hdr.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k6a1gx_video.so:/system/lib/libtuning_aec_s5k6a1gx_video.so \
-        vendor/htc/a11/proprietary/lib/libtuning_aec_s5k6a1gx_zsl.so:/system/lib/libtuning_aec_s5k6a1gx_zsl.so \
-        vendor/htc/a11/proprietary/lib/libtuning_af.so:/system/lib/libtuning_af.so \
-        vendor/htc/a11/proprietary/lib/libtuning_awb_s5k5e2_twolane.so:/system/lib/libtuning_awb_s5k5e2_twolane.so \
-        vendor/htc/a11/proprietary/lib/libtuning_awb_s5k6a1gx.so:/system/lib/libtuning_awb_s5k6a1gx.so \
+        vendor/htc/a11/proprietary/vendor/lib/libposteffect.so:/system/vendor/lib/libposteffect.so \
+        vendor/htc/a11/proprietary/vendor/lib/libqomx_core.so:/system/vendor/lib/libqomx_core.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_hdr_16_9.so:/system/vendor/lib/libtuning_aec_ov13850_hdr_16_9.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_hdr.so:/system/vendor/lib/libtuning_aec_ov13850_hdr.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_night_16_9.so:/system/vendor/lib/libtuning_aec_ov13850_night_16_9.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_night.so:/system/vendor/lib/libtuning_aec_ov13850_night.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_video_60fps.so:/system/vendor/lib/libtuning_aec_ov13850_video_60fps.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_videoHFR.so:/system/vendor/lib/libtuning_aec_ov13850_videoHFR.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_video.so:/system/vendor/lib/libtuning_aec_ov13850_video.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_zoe.so:/system/vendor/lib/libtuning_aec_ov13850_zoe.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_zsl_16_9.so:/system/vendor/lib/libtuning_aec_ov13850_zsl_16_9.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_ov13850_zsl.so:/system/vendor/lib/libtuning_aec_ov13850_zsl.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_hdr_16_9.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_hdr_16_9.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_hdr.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_hdr.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_video_16_9.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_video.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_video.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_zsl_16_9.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_zsl_16_9.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_zsl.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_zsl.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_aec.so:/system/vendor/lib/libtuning_aec.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_af_0.so:/system/vendor/lib/libtuning_af_0.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_af_1.so:/system/vendor/lib/libtuning_af_1.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_af_3.so:/system/vendor/lib/libtuning_af_3.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_af.so:/system/vendor/lib/libtuning_af.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_awb_ov13850.so:/system/vendor/lib/libtuning_awb_ov13850.so \
+        vendor/htc/a11/proprietary/vendor/lib/libtuning_awb_s5k5e_onelane.so:/system/vendor/lib/libtuning_awb_s5k5e_onelane.so \
         vendor/htc/a11/proprietary/etc/gps.conf:/system/etc/gps.conf \
         vendor/htc/a11/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/a11/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
@@ -177,37 +177,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/a11/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/a11/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
+        vendor/htc/a11/proprietary/vendor/firmware/libpn547_fw.so:/system/vendor/firmware/libpn547_fw.so \
         vendor/htc/a11/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/a11/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/a11/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/a11/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/a11/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-        vendor/htc/a11/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
-        vendor/htc/a11/proprietary/lib/hw/sensors.msm8226.so:/system/lib/hw/sensors.msm8226.so \
-        vendor/htc/a11/proprietary/bin/time_daemon:/system/bin/time_daemon \
-        vendor/htc/a11/proprietary/vendor/lib/libtime_genoff.so:/system/vendor/lib/libtime_genoff.so \
-        vendor/htc/a11/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
-        vendor/htc/a11/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
-        vendor/htc/a11/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
-        vendor/htc/a11/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
-        vendor/htc/a11/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
-        vendor/htc/a11/proprietary/bin/qseecomd:/system/bin/qseecomd \
-        vendor/htc/a11/proprietary/etc/firmware/cmnlib.b00:/system/etc/firmware/cmnlib.b00 \
-        vendor/htc/a11/proprietary/etc/firmware/cmnlib.b01:/system/etc/firmware/cmnlib.b01 \
-        vendor/htc/a11/proprietary/etc/firmware/cmnlib.b02:/system/etc/firmware/cmnlib.b02 \
-        vendor/htc/a11/proprietary/etc/firmware/cmnlib.b03:/system/etc/firmware/cmnlib.b03 \
-        vendor/htc/a11/proprietary/etc/firmware/cmnlib.mdt:/system/etc/firmware/cmnlib.mdt \
-        vendor/htc/a11/proprietary/vendor/firmware/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
-        vendor/htc/a11/proprietary/vendor/firmware/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
-        vendor/htc/a11/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
-        vendor/htc/a11/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
-        vendor/htc/a11/proprietary/vendor/firmware/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
-        vendor/htc/a11/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-        vendor/htc/a11/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
-        vendor/htc/a11/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
-        vendor/htc/a11/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
-        vendor/htc/a11/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/a11/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/a11/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
         vendor/htc/a11/proprietary/blobs/gsm/vendor/lib/libdiag.so:/system/blobs/gsm/vendor/lib/libdiag.so \
         vendor/htc/a11/proprietary/blobs/gsm/vendor/lib/libdsi_netctrl.so:/system/blobs/gsm/vendor/lib/libdsi_netctrl.so \
@@ -252,3 +227,27 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/blobs/chl/vendor/lib/libnetmgr.so:/system/blobs/chl/vendor/lib/libnetmgr.so \
         vendor/htc/a11/proprietary/blobs/chl/vendor/lib/libril-qc-qmi-1.so:/system/blobs/chl/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/a11/proprietary/blobs/chl/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/chl/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/a11/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
+        vendor/htc/a11/proprietary/bin/akmd:/system/bin/akmd \
+        vendor/htc/a11/proprietary/lib/hw/sensors.msm8226.so:/system/lib/hw/sensors.msm8226.so \
+        vendor/htc/a11/proprietary/bin/time_daemon:/system/bin/time_daemon \
+        vendor/htc/a11/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
+        vendor/htc/a11/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
+        vendor/htc/a11/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
+        vendor/htc/a11/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
+        vendor/htc/a11/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
+        vendor/htc/a11/proprietary/bin/qseecomd:/system/bin/qseecomd \
+        vendor/htc/a11/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
+        vendor/htc/a11/proprietary/vendor/firmware/cmnlib.b01:/system/vendor/firmware/cmnlib.b01 \
+        vendor/htc/a11/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
+        vendor/htc/a11/proprietary/vendor/firmware/cmnlib.b03:/system/vendor/firmware/cmnlib.b03 \
+        vendor/htc/a11/proprietary/vendor/firmware/cmnlib.mdt:/system/vendor/firmware/cmnlib.mdt \
+        vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
+        vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
+        vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
+        vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
+        vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/a11/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
+        vendor/htc/a11/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
+        vendor/htc/a11/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+        vendor/htc/a11/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
