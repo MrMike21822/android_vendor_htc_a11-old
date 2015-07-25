@@ -54,11 +54,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/vendor/lib/libchromatix_gc_0339_common.so:/system/vendor/lib/libchromatix_gc_0339_common.so \
         vendor/htc/a11/proprietary/vendor/lib/libchromatix_gc_0339_default_video.so:/system/vendor/lib/libchromatix_gc_0339_default_video.so \
         vendor/htc/a11/proprietary/vendor/lib/libchromatix_gc_0339_preview.so:/system/vendor/lib/libchromatix_gc_0339_preview.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_common.so:/system/vendor/lib/libchromatix_s5k5e_onelane_common.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_default_video.so:/system/vendor/lib/libchromatix_s5k5e_onelane_default_video.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_hdr.so:/system/vendor/lib/libchromatix_s5k5e_onelane_hdr.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_preview.so:/system/vendor/lib/libchromatix_s5k5e_onelane_preview.so \
-        vendor/htc/a11/proprietary/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so \
         vendor/htc/a11/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/a11/proprietary/vendor/lib/libhtccamera.so:/system/vendor/lib/libhtccamera.so \
         vendor/htc/a11/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -247,7 +242,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/a11/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
-        vendor/htc/a11/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
         vendor/htc/a11/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/a11/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
         vendor/htc/a11/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
